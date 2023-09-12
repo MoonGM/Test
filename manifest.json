@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "MoonV2",
+  "version": "2.0",
+  "description": "Plug de test v2",
+  "homepage_url": "https://github.com/MoonGM",
+  "icons": {
+    "48": "icons/Moon.gif"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/Moon.gif",
+    "default_title": "Moon",
+    "default_popup": "popup/MoonHTML.html"
+  },
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+}
